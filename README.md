@@ -9,7 +9,7 @@
 **Url :** [data.gov](https://catalog.data.gov/dataset)
 
 **Potential applications and values :**
-Data.gov dataset is an open public dataset provided by the government from different departments and bureaus, which makes it reliable. It includes nearly three hundred thousand datasets divided into several categories and comes in various file formats.
+Data.gov dataset is an open public dataset provided by the government from various departments and bureaus, which makes it reliable. It includes nearly three hundred thousand datasets divided into several categories and comes in various file formats.
 
 
 
