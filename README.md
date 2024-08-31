@@ -16,11 +16,11 @@ It is an open public dataset provided by the government, which makes it reliable
 
 **Selected Book :**
 
-**Name :** data.gov - The home of the U.S. Government's open data
+**Name :** "_R for Data Science: Import, Tidy, Transform, Visualize, and Model Data_"
 
-**Author :**
+**Author :** Garrett Grolemund and Hadley Wickham
 
-**Url link :** [data.gov](https://catalog.data.gov/dataset)
+**Url link :** [R for Data Science](https://r4ds.had.co.nz/))
 
 **Publisher Name :** O'Reilly Media, Inc
 
