@@ -20,7 +20,7 @@ Data.gov dataset is an open public dataset provided by the government from diffe
 
 **Author :** Garrett Grolemund and Hadley Wickham
 
-**Url link :** [R for Data Science](https://r4ds.had.co.nz/))
+**Url link :** [R for Data Science](https://r4ds.had.co.nz/)
 
 **Publisher Name :** O'Reilly Media, Inc
 
