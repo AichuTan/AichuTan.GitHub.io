@@ -1,33 +1,61 @@
-# AichuTan.GitHub.io
 
-#### Introduce ONE selected “Data Set” from the [awesome-datascience](https://github.com/academic/awesome-datascience?tab=readme-ov-file#datasets) GitHub with its URL and describe its potential applications and values.
+# 🌐 Aichu Tan — Portfolio Website
 
-**Selected Dataset :**
+Welcome to my personal portfolio site!  
+This site showcases my projects, skills, and experience in data science, AI, and full-stack analytics.
 
-**Name :** data.gov - The home of the U.S. Government's open data
+🧑‍💻 **Live Site:** [https://AichuTan.github.io](https://AichuTan.github.io)
 
-**Url :** [data.gov](https://catalog.data.gov/dataset)
+---
 
-**Potential applications and values :**
-Data.gov dataset is an open public dataset provided by the government from various departments and bureaus, which makes it reliable. It includes nearly three hundred thousand datasets divided into several categories and comes in various file formats.
+## 🔍 About Me
 
+I'm a data analyst and AI enthusiast currently pursuing my M.S. in Big Data Analytics at San Diego State University.  
+I focus on applying machine learning, computer vision, and LLMs to solve real-world challenges in public health, agriculture, and smart cities.
 
+---
 
-#### Introduce ONE selected [“free-data-science-book”](https://github.com/chaconnewu/free-data-science-books) with its URL and author/institute information. Explain briefly why you are interested in this book.
+## 🚀 Featured Projects
 
-**Selected Book :**
+### 🔬 AI-Powered Plant Disease Detection
+- Tools: YOLOv8, LangChain, LLM, Python
+- Combines computer vision and language models to deliver treatment suggestions based on plant disease images.
 
-**Name :** "_R for Data Science: Import, Tidy, Transform, Visualize, and Model Data_"
+### 🗺️ Mapping for Change
+- Tools: ArcGIS, HTML/CSS, GitHub Pages
+- Visualizes spatial inequality in Downtown San Diego through interactive dashboards and maps.
 
-**Author :** Garrett Grolemund and Hadley Wickham
+### 🧾 Horizon Hotels DSS
+- Tools: Weka, Power BI, SQL Server, Python
+- Designed a full system-level spec for an AI-powered decision support system (DSS) for hotel guest personalization.
 
-**Url link :** [R for Data Science](https://r4ds.had.co.nz/)
+### 📊 Bellabeat Case Study
+- Tools: R, ggplot2, tidyverse
+- Analyzed Fitbit data to generate marketing insights for wellness product strategy.
 
-**Publisher Name :** O'Reilly Media, Inc
+---
 
-**Why I am interested in this book :**
-I am interested in reading this book because it teaches how to use R for beginners like me who have no experience in coding. It guides readers from importing, tidying, transforming, and visualizing data until we can be ready for analysis to make predictions and recommendations. I believe this book can guide me to complete my project in the future. Additionally, the author holds PhD in Statistics and rich of experience in teaching, and now he is working for R-studio, so I believe this book is reliable.
+## 🛠️ Tech Stack
 
+- **Languages:** Python, R, SQL, JavaScript, C++
+- **Frameworks:** YOLOv8, TensorFlow, LangChain, Scikit-learn
+- **Tools:** Tableau, ArcGIS, RStudio, Streamlit
+- **Cloud:** AWS, GCP, Azure, BigQuery
+
+---
+
+## 📫 Contact
+
+- Email: aycu2004@gmail.com  
+- GitHub: [github.com/AichuTan](https://github.com/AichuTan)  
+- LinkedIn: [linkedin.com/in/aichutan](https://linkedin.com/in/aichutan)
+
+---
+
+## 📄 License
+
+This site is for academic and professional showcase purposes.  
+All project content and visuals © 2024 Aichu Tan.
 
 
 
