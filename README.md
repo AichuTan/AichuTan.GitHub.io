@@ -55,7 +55,7 @@ I focus on applying machine learning, computer vision, and LLMs to solve real-wo
 ## 📄 License
 
 This site is for academic and professional showcase purposes.  
-All project content and visuals © 2024 Aichu Tan.
+All project content and visuals © 2025 Aichu Tan.
 
 
 
