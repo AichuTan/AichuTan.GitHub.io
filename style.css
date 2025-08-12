@@ -1,10 +1,15 @@
 /* Import Inter font */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
+:root {
+  --accent-color: #0077b6;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 10px;
 }
+
 body {
   margin: 0;
   font-family: "Inter", "Segoe UI", sans-serif;
@@ -59,7 +64,7 @@ nav ul li a {
 
 nav ul li a.active,
 nav ul li a:hover {
-  background-color: #0077b6;
+  background-color: var(--accent-color);
   color: #fff;
   box-shadow: 0 4px 8px rgba(0, 119, 182, 0.2);
 }
@@ -73,12 +78,15 @@ nav ul li a:hover {
 
 section {
   margin-bottom: 3rem;
-  padding: 4rem 2rem 2rem; /* increase top padding */
+  padding: 4rem 2rem 2rem;
   background-color: #fdfdfd;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-  scroll-margin-top: 30px;
+  scroll-margin-top: 80px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
+
 h1 {
   font-size: 2.5rem;
   margin-bottom: 0;
@@ -101,6 +109,7 @@ h1 {
   margin-bottom: 1rem;
   border-left: 4px solid #2c3e50;
   transition: box-shadow 0.3s ease;
+  word-wrap: break-word;
 }
 
 .project-card:hover {
@@ -109,9 +118,9 @@ h1 {
 
 .project-card a {
   display: inline-block;
+  margin: 0.5rem 0.5rem 0 0;
   padding: 0.4rem 0.75rem;
-  margin-right: 0.5rem;
-  background-color: #0077b6;
+  background-color: var(--accent-color);
   color: #fff;
   border-radius: 4px;
   text-decoration: none;
@@ -151,7 +160,7 @@ h1 {
 
 .skill-group h4 {
   margin-bottom: 0.5rem;
-  color: #0077b6;
+  color: var(--accent-color);
 }
 
 .skill-group ul {
@@ -170,7 +179,7 @@ h1 {
   content: "✔";
   position: absolute;
   left: 0;
-  color: #0077b6;
+  color: var(--accent-color);
   font-size: 0.9rem;
 }
 
@@ -181,7 +190,7 @@ h1 {
 }
 
 #resume a {
-  background-color: #0077b6;
+  background-color: var(--accent-color);
   color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 6px;
@@ -224,7 +233,7 @@ h1 {
 }
 
 .social-icons a:hover {
-  background-color: #0077b6;
+  background-color: var(--accent-color);
   transform: scale(1.1);
 }
 
@@ -232,9 +241,21 @@ h1 {
   .sidebar {
     position: relative;
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     padding: 1rem;
-    align-items: flex-start;
+    box-shadow: none;
+  }
+
+  .sidebar img.avatar {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
   }
 
   .main-content {
@@ -258,14 +279,14 @@ h2 {
   color: #2c3e50;
   background-color: #e8f1fa;
   padding: 0.5rem 1rem;
-  border-left: 5px solid #0077b6;
+  border-left: 5px solid var(--accent-color);
   border-radius: 4px;
   display: inline-block;
   margin-bottom: 1rem;
 }
 
 a {
-  color: #0077b6;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -288,6 +309,7 @@ section:not(:last-child)::after {
   justify-content: center;
   padding-top: 2rem;
 }
+
 #about .name {
   font-size: 2.75rem;
   font-weight: 700;
@@ -296,7 +318,7 @@ section:not(:last-child)::after {
 
 #about .tagline {
   font-size: 1.1rem;
-  color: #0077b6;
+  color: var(--accent-color);
   font-weight: 500;
   margin-bottom: 1.5rem;
   letter-spacing: 0.4px;
