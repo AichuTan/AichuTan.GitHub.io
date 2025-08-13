@@ -10,19 +10,39 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
+  <!-- Mobile Menu Button -->
+  <button class="mobile-menu-toggle" aria-label="Toggle navigation">☰</button>
+
+  <!-- Mobile Navigation Menu -->
+  <nav class="mobile-nav">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#featured-projects">Featured</a></li>
+      <li><a href="#all-projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
   <body>
-    <div class="sidebar">
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
       <img src="my_image.jpg" alt="Aichu Tan" class="avatar" />
-      <nav>
-        <ul>
-          <li><a href="#about" class="active">About</a></li>
-          <li><a href="#featured-projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#resume">Resume</a></li>
-        </ul>
-      </nav>
+      <div class="sidebar-content">
+        <nav>
+          <ul>
+            <li><a href="#about" class="active">About</a></li>
+            <li><a href="#featured-projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#resume">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
 
     <div class="main-content">
@@ -119,7 +139,7 @@
         </div>
         <button id="toggle-projects">View All Projects</button>
       </section>
-      <section id="all-projects" style="display: none">
+      <section id="all-projects">
         <div class="project-card">
           <h3>Anti-Wage Theft Data Project</h3>
           <p><strong>Tools:</strong> R, Tableau, SQL, ARIMA Time Series</p>
@@ -357,15 +377,45 @@
       const toggleBtn = document.getElementById("toggle-projects");
       const allProjects = document.getElementById("all-projects");
 
+      let isExpanded = false;
+
       toggleBtn.addEventListener("click", () => {
-        if (allProjects.style.display === "none") {
-          allProjects.style.display = "block";
-          toggleBtn.textContent = "View All Projects";
+        if (!isExpanded) {
+          // Expand
+          allProjects.style.height = allProjects.scrollHeight + "px";
+          allProjects.style.opacity = "1";
+          toggleBtn.textContent = "Show Fewer Projects";
+
+          // Optional scroll into view
+          setTimeout(() => {
+            allProjects.scrollIntoView({ behavior: "smooth" });
+          }, 300);
         } else {
-          allProjects.style.display = "none";
-          toggleBtn.textContent = "Show Less Projects";
+          // Collapse
+          allProjects.style.height = "0";
+          allProjects.style.opacity = "0";
+          toggleBtn.textContent = "View All Projects";
         }
+
+        isExpanded = !isExpanded;
+      });
+    </script>
+    <script>
+      const toggle = document.querySelector(".mobile-menu-toggle");
+      const nav = document.querySelector(".mobile-nav");
+
+      toggle.addEventListener("click", () => {
+        nav.classList.toggle("open");
+      });
+
+      // Optional: Close menu after clicking a link
+      document.querySelectorAll(".mobile-nav a").forEach((link) => {
+        link.addEventListener("click", () => {
+          nav.classList.remove("open");
+        });
       });
     </script>
   </body>
 </html>
+
+
