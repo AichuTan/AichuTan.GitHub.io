@@ -72,7 +72,6 @@ nav ul li a:hover {
   margin-left: 260px;
   padding: 3rem 2rem;
   max-width: 900px;
-  width: 100%;
   background-color: #ffffff;
   flex: 1;
 }
@@ -98,7 +97,7 @@ h1 {
 
 .tagline {
   font-size: 1.3rem;
-  color:#005b8f;
+  color: #005b8f;
   margin-bottom: 1rem;
 }
 
@@ -269,14 +268,13 @@ a:hover {
 .mobile-menu-toggle {
   display: none;
   position: fixed;
-  top: 1rem;
+  top: 0;
   right: 1rem;
   z-index: 999;
   background: var(--accent-color);
   color: white;
   border: none;
   padding: 0.5rem 1rem;
-  border-radius: 6px;
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -315,9 +313,6 @@ a:hover {
 @media (max-width: 768px) {
   .mobile-menu-toggle {
     display: block;
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
   }
 
   .mobile-nav.open {
@@ -338,7 +333,6 @@ a:hover {
   .main-content {
     margin-left: 0;
     padding: 1.5rem;
-    width: 100%;
   }
 
   .skills-grid {
