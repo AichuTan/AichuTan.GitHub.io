@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
 :root {
   --accent-color: #0077b6;
 }
@@ -73,6 +72,7 @@ nav ul li a:hover {
   margin-left: 260px;
   padding: 3rem 2rem;
   max-width: 900px;
+  width: 100%;
   background-color: #ffffff;
   flex: 1;
 }
@@ -247,7 +247,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   color: #2c3e50;
-  background-color: #e8f1fa;
+  background-color: #deedfe;
   padding: 0.5rem 1rem;
   border-left: 5px solid var(--accent-color);
   border-radius: 4px;
@@ -263,6 +263,66 @@ a {
 a:hover {
   color: #005b8f;
   text-decoration: underline;
+}
+
+/* Hide menu toggle on desktop */
+.mobile-menu-toggle {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 999;
+  background: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Mobile nav (initially hidden) */
+.mobile-nav {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #1b2838;
+  width: 100%;
+  height: 100vh;
+  padding-top: 4rem;
+  z-index: 998;
+  text-align: center;
+}
+
+.mobile-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-nav ul li {
+  margin: 1.5rem 0;
+}
+
+.mobile-nav ul li a {
+  color: white;
+  font-size: 1.25rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Show toggle on mobile */
+@media (max-width: 768px) {
+  .mobile-menu-toggle {
+    display: block;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .mobile-nav.open {
+    display: block;
+  }
 }
 
 /* Responsive styles */
@@ -299,3 +359,4 @@ a:hover {
     font-size: 1.25rem;
   }
 }
+
