@@ -71,6 +71,6 @@ R + tidyverse + ggplot2
 ## 📬 Let's Connect
 
 I'm open to collaboration, internships, or full-time opportunities in data science, AI applications, or impactful tech projects.  
-📫 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/aichutan/) or email at **aycu2004@gmail.com**.
+📫 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/aichutan/) or email at **the.aichutan@gmail.com**.
 
 
