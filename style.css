@@ -253,7 +253,7 @@ h1 {
 .social-icons {
   margin-top: 2rem;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   gap: 1.2rem;
 }
 
