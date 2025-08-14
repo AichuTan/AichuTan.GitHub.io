@@ -1,61 +1,76 @@
+# Aichu Tan
 
-# 🌐 Aichu Tan — Portfolio Website
-
-Welcome to my personal portfolio site!  
-This site showcases my projects, skills, and experience in data science, AI, and full-stack analytics.
-
-🧑‍💻 **Live Site:** [https://AichuTan.github.io](https://AichuTan.github.io)
+**Data Scientist** • **AI & LLM Applications** • **Full-Stack Data Projects**  
+📍 Dublin, CA | 📧 aycu2004@gmail.com | 🌐 [Portfolio Website](https://AichuTan.github.io) | [LinkedIn](https://www.linkedin.com/in/aichutan/)
 
 ---
 
-## 🔍 About Me
+## 👋 About Me
 
-I'm a data analyst and AI enthusiast currently pursuing my M.S. in Big Data Analytics at San Diego State University.  
-I focus on applying machine learning, computer vision, and LLMs to solve real-world challenges in public health, agriculture, and smart cities.
+I'm a data analyst and AI enthusiast pursuing an M.S. in Big Data Analytics at San Diego State University (expected 2026). I design full-stack analytical solutions by combining machine learning, computer vision (YOLO), large language models (LLMs via LangChain), and predictive analytics to solve real-world problems in agriculture, public health, urban equity, and business.
+
+Passionate about turning complex data into actionable insights, I specialize in tools like Python, SQL, R, ArcGIS, and Tableau to drive measurable impact and social value.
+
+---
+
+## 🔧 Technical Skills
+
+- **Languages:** Python, R, SQL, JavaScript, C++
+- **Machine Learning & AI:** YOLOv8, YOLOv7, LangChain, Scikit-learn, TensorFlow, RAG
+- **Data Analysis & Visualization:** Pandas, NumPy, ggplot2, Tableau, ArcGIS, Datapane
+- **Cloud & Infrastructure:** AWS, Google Cloud, Azure, BigQuery, RDS
+- **Web & Tools:** Streamlit, HTML/CSS, GitHub Pages, Jekyll, Git
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🔬 AI-Powered Plant Disease Detection
-- Tools: YOLOv8, LangChain, LLM, Python
-- Combines computer vision and language models to deliver treatment suggestions based on plant disease images.
+### 🌿 AI-Powered Plant Disease Detection  
+YOLOv8 + LangChain + LLMs  
+- Built a vision-based system for detecting plant diseases and generating treatment advice for farmers in underserved regions.  
+- Integrated YOLOv8 with LLM-based recommendations using LangChain and deployed the app with Streamlit.
 
-### 🗺️ Mapping for Change
-- Tools: ArcGIS, HTML/CSS, GitHub Pages
-- Visualizes spatial inequality in Downtown San Diego through interactive dashboards and maps.
+### 🗺️ Mapping for Change: Urban Equity Dashboard  
+ArcGIS + GitHub Pages  
+- Developed a web-based dashboard visualizing homelessness, rent burden, and tree equity in Downtown San Diego using public datasets and ArcGIS Online.
 
-### 🧾 Horizon Hotels DSS
-- Tools: Weka, Power BI, SQL Server, Python
-- Designed a full system-level spec for an AI-powered decision support system (DSS) for hotel guest personalization.
+### 🎟️ Ticket Booking Analytics System  
+MySQL + Python + AWS RDS  
+- Designed a relational database and Python dashboard for analyzing revenue, booking trends, and customer insights for an event ticketing platform.
 
-### 📊 Bellabeat Case Study
-- Tools: R, ggplot2, tidyverse
-- Analyzed Fitbit data to generate marketing insights for wellness product strategy.
-
----
-
-## 🛠️ Tech Stack
-
-- **Languages:** Python, R, SQL, JavaScript, C++
-- **Frameworks:** YOLOv8, TensorFlow, LangChain, Scikit-learn
-- **Tools:** Tableau, ArcGIS, RStudio, Streamlit
-- **Cloud:** AWS, GCP, Azure, BigQuery
+### 📊 Bellabeat Data Analysis Case Study  
+R + tidyverse + ggplot2  
+- Analyzed smart device data to uncover patterns in user activity and delivered strategic insights to improve engagement.
 
 ---
 
-## 📫 Contact
+## 📚 Professional Development
 
-- Email: aycu2004@gmail.com  
-- GitHub: [github.com/AichuTan](https://github.com/AichuTan)  
-- LinkedIn: [linkedin.com/in/aichutan](https://linkedin.com/in/aichutan)
+- **LangChain for LLM Application Development** – Coursera (Harrison Chase, Andrew Ng)  
+- **Streamlit for Data Science** – Udemy (Marco Peixeiro)  
+- **100 Days of Code: Python Pro Bootcamp** – Udemy (Dr. Angela Yu)  
+- **Full-Stack Web Development Bootcamp** – Udemy (Dr. Angela Yu)  
+- **YOLOv7: Deep Learning for Object Detection** – Udemy (Dr. Priyanto Hidayatullah)  
+- **AI A–Z: Agentic AI, GenAI & Reinforcement Learning** – Udemy (Hadelin de Ponteves)  
+- **Machine Learning A–Z (Python & R)** – Udemy (Kirill Eremenko, Hadelin de Ponteves)  
+- **Google Data Analytics Professional Certificate** – Coursera
 
 ---
 
-## 📄 License
+## 📄 Publications
 
-This site is for academic and professional showcase purposes.  
-All project content and visuals © 2025 Aichu Tan.
+- **AI for Farmers: A YOLO and Language Model-Based Plant Disease Detection and Advisory System**  
+  *Tan, A., Vito, D., & Fernandez, G. (2025). 4th International One Health Conference.*
 
+- **Racemization and Hydrolysis of (S)-naproxen 2,2,2-trifluoroethyl Ester in Non-polar Solvents**  
+  *Lin, H.-Y., Lay, E., Wen, W.-Y., Dewi, H., Cheng, Y.-C., Tsai, S.-W., & Tan, A. (2004). Journal of Physical Organic Chemistry.*  
+  [DOI: 10.1002/poc.810](https://doi.org/10.1002/poc.810)
+
+---
+
+## 📬 Let's Connect
+
+I'm open to collaboration, internships, or full-time opportunities in data science, AI applications, or impactful tech projects.  
+📫 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/aichutan/) or email at **aycu2004@gmail.com**.
 
 
