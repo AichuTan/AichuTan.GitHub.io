@@ -1,7 +1,7 @@
 # Aichu Tan
 
 **Data Scientist** • **AI & LLM Applications** • **Full-Stack Data Projects**  
-📍 Dublin, CA | 📧 aycu2004@gmail.com | 🌐 [Portfolio Website](https://AichuTan.github.io) | [LinkedIn](https://www.linkedin.com/in/aichutan/)
+📍 Dublin, CA | 📧 the.aichutan@gmail.com | 🌐 [Portfolio Website](https://AichuTan.github.io) | [LinkedIn](https://www.linkedin.com/in/aichutan/)
 
 ---
 
