@@ -1,7 +1,7 @@
 # Aichu Tan
 
 **Data Scientist** • **AI & LLM Applications** • **Full-Stack Data Projects**  
-📍 Dublin, CA | 📧 the.aichutan@gmail.com | 🌐 [Portfolio Website](https://AichuTan.github.io) | [LinkedIn](https://www.linkedin.com/in/aichutan/)
+📍 Dublin, CA | 📧 thedebbietan@gmail.com | 🌐 [Portfolio Website](https://AichuTan.github.io) | [LinkedIn](https://www.linkedin.com/in/aichutan/)
 
 ---
 
@@ -71,6 +71,6 @@ R + tidyverse + ggplot2
 ## 📬 Let's Connect
 
 I'm open to collaboration, internships, or full-time opportunities in data science, AI applications, or impactful tech projects.  
-📫 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/aichutan/) or email at **the.aichutan@gmail.com**.
+📫 Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/aichutan/) or email at **thedebbietan@gmail.com**.
 
 
