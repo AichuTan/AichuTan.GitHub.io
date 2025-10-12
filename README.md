@@ -25,6 +25,14 @@ Passionate about turning complex data into actionable insights, I specialize in 
 
 ## 🚀 Featured Projects
 
+### 🍽️ Predicting Restaurant Ratings Using Yelp Metadata  
+**Python • Scikit-learn • XGBoost • MLflow**  
+- Predicted Yelp restaurant ratings (≥4★ vs <4★) using structured business metadata such as price range, amenities, and hours.  
+- Analyzed **36,261 restaurants** with **61 engineered features**; XGBoost achieved **0.733 accuracy** and **0.79 ROC-AUC**.  
+- Revealed actionable insights — accessibility, operating hours, and price range strongly influence customer satisfaction.  
+🔗 [GitHub Repository](https://github.com/AichuTan/BDA602_final_yelp_analysis)
+
+
 ### 🌿 AI-Powered Plant Disease Detection  
 YOLOv8 + LangChain + LLMs  
 - Built a vision-based system for detecting plant diseases and generating treatment advice for farmers in underserved regions.  
