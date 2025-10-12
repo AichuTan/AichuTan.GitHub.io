@@ -16,14 +16,32 @@
   <!-- Mobile Navigation Menu -->
   <nav class="mobile-nav">
     <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#featured-projects">Featured</a></li>
-      <li><a href="#all-projects">Projects</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#resume">Resume</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li>
+        <a href="#featured-projects"
+          ><i class="fa-solid fa-briefcase"></i> Portfolio</a
+        >
+      </li>
+      <li>
+        <a href="#skills"><i class="fa-solid fa-code"></i> Skills</a>
+      </li>
+      <li>
+        <a href="#education"
+          ><i class="fa-solid fa-graduation-cap"></i> Education</a
+        >
+      </li>
+      <li>
+        <a href="#experience"
+          ><i class="fa-solid fa-clipboard-list"></i> Experience</a
+        >
+      </li>
+      <li>
+        <a href="#publications"
+          ><i class="fa-solid fa-book-open"></i> Publications</a
+        >
+      </li>
+      <li>
+        <a href="#resume"><i class="fa-solid fa-file-lines"></i> Resume</a>
+      </li>
     </ul>
   </nav>
 
@@ -34,13 +52,41 @@
       <div class="sidebar-content">
         <nav>
           <ul>
-            <li><a href="#about" class="active">About</a></li>
-            <li><a href="#featured-projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#resume">Resume</a></li>
+            <ul>
+              <li>
+                <a href="#about" class="active"
+                  ><i class="fa-solid fa-user"></i> About</a
+                >
+              </li>
+              <li>
+                <a href="#featured-projects"
+                  ><i class="fa-solid fa-briefcase"></i> Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="#skills"><i class="fa-solid fa-code"></i> Skills</a>
+              </li>
+              <li>
+                <a href="#education"
+                  ><i class="fa-solid fa-graduation-cap"></i> Education</a
+                >
+              </li>
+              <li>
+                <a href="#experience"
+                  ><i class="fa-solid fa-clipboard-list"></i> Experience</a
+                >
+              </li>
+              <li>
+                <a href="#publications"
+                  ><i class="fa-solid fa-book-open"></i> Publications</a
+                >
+              </li>
+              <li>
+                <a href="#resume"
+                  ><i class="fa-solid fa-file-lines"></i> Resume</a
+                >
+              </li>
+            </ul>
           </ul>
         </nav>
       </div>
@@ -100,6 +146,34 @@
             target="_blank"
             >View Live Demo</a
           >
+          <a
+            href="https://github.com/AichuTan/ai_for_farmers"
+            target="_blank"
+            class="project-btn"
+            >💻 View on GitHub</a
+          >
+        </div>
+
+        <div class="project-card">
+          <h3>Predicting Restaurant Ratings Using Yelp Metadata</h3>
+          <p>
+            <strong>Tools:</strong> Python, Scikit-learn, XGBoost, Random
+            Forest, MLflow, Pandas, K-Prototypes
+          </p>
+          <p>
+            Predicted Yelp restaurant ratings (≥4★ vs. &lt;4★) using only
+            structured business metadata (36,261 restaurants, 61 engineered
+            features). Best metrics: <strong>XGBoost</strong> Accuracy 0.733 /
+            ROC-AUC 0.79; <strong>Random Forest</strong> F1 0.659. Top
+            predictors: review count, price range, hours, and
+            accessibility/amenities.
+          </p>
+          <a
+            href="https://github.com/AichuTan/BDA602_final_yelp_analysis"
+            target="_blank"
+            class="project-btn"
+            >💻 View on GitHub</a
+          >
         </div>
         <div class="project-card">
           <h3>Online Ticket Database Management System</h3>
@@ -117,19 +191,7 @@
             >View Project</a
           >
         </div>
-        <div class="project-card">
-          <h3>Mapping for Change</h3>
-          <p><strong>Tools:</strong> HTML, ArcGIS Dashboard, GitHub Pages</p>
-          <p>
-            A spatial justice project highlighting housing burden and
-            environmental inequality in Downtown San Diego.
-          </p>
-          <a
-            href="https://aichutan.github.io/Mapping-for-change/index.html"
-            target="_blank"
-            >Live Site</a
-          >
-        </div>
+
         <button id="toggle-projects">View All Projects</button>
       </section>
       <section id="all-projects">
@@ -154,7 +216,19 @@
             GitHub Repository</a
           >
         </div>
-
+        <div class="project-card">
+          <h3>Mapping for Change</h3>
+          <p><strong>Tools:</strong> HTML, ArcGIS Dashboard, GitHub Pages</p>
+          <p>
+            A spatial justice project highlighting housing burden and
+            environmental inequality in Downtown San Diego.
+          </p>
+          <a
+            href="https://aichutan.github.io/Mapping-for-change/index.html"
+            target="_blank"
+            >Live Site</a
+          >
+        </div>
         <div class="project-card">
           <h3>Horizon Hotels Decision Support System</h3>
           <p><strong>Tools:</strong> SQL Server, Power BI, Weka, Python, NLP</p>
