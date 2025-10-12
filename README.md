@@ -26,7 +26,7 @@ Passionate about turning complex data into actionable insights, I specialize in 
 ## 🚀 Featured Projects
 
 ### 🍽️ Predicting Restaurant Ratings Using Yelp Metadata  
-**Python • Scikit-learn • XGBoost • MLflow**  
+**Python • Scikit-learn • XGBoost • K-Proto • MLflow**  
 - Predicted Yelp restaurant ratings (≥4★ vs <4★) using structured business metadata such as price range, amenities, and hours.  
 - Analyzed **36,261 restaurants** with **61 engineered features**; XGBoost achieved **0.733 accuracy** and **0.79 ROC-AUC**.  
 - Revealed actionable insights — accessibility, operating hours, and price range strongly influence customer satisfaction.  
