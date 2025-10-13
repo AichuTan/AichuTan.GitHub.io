@@ -134,12 +134,17 @@
             Azure Database
           </p>
           <p>
-            Developed a plant disease detection system using YOLOv8 for
-            image-based classification. Generated treatment summaries using an
-            LLM, stored them in a database, and built a web interface that
-            retrieves relevant guidance in real time. This approach integrates
-            AI generation with structured retrieval to support farmer
-            decision-making.
+            Designed and deployed an AI system to detect and diagnose plant
+            diseases from uploaded images, enabling real-time decision support
+            for farmers. Trained a <strong>YOLOv8</strong> model for multi-class
+            disease detection and integrated it with a
+            <strong>LangChain-powered LLM</strong> to automatically generate
+            treatment and prevention advice. Built a
+            <strong>Streamlit web interface</strong> connected to an
+            <strong>Azure database</strong> for structured retrieval of
+            guidance. The system was
+            <strong>open-sourced and deployed on Hugging Face Spaces</strong> to
+            support smallholder farmers in Africa.
           </p>
           <a
             href="https://huggingface.co/spaces/aycu2004/ai_for_farmer"
@@ -161,12 +166,18 @@
             Forest, MLflow, Pandas, K-Prototypes
           </p>
           <p>
-            Predicted Yelp restaurant ratings (≥4★ vs. &lt;4★) using only
-            structured business metadata (36,261 restaurants, 61 engineered
-            features). Best metrics: <strong>XGBoost</strong> Accuracy 0.733 /
-            ROC-AUC 0.79; <strong>Random Forest</strong> F1 0.659. Top
-            predictors: review count, price range, hours, and
-            accessibility/amenities.
+            Designed and implemented a machine learning pipeline to predict
+            restaurant success (≥4★ vs &lt;4★) using structured metadata from
+            36,000+ Yelp businesses. Engineered 61 features and applied Logistic
+            Regression, Elastic Net, Random Forest, and XGBoost with 5-fold
+            cross-validation and MLflow experiment tracking. Optimized ensemble
+            models, achieving
+            <strong>0.733 accuracy and 0.79 ROC-AUC</strong> with XGBoost.
+            Conducted feature importance and clustering analyses to identify key
+            drivers of customer satisfaction and uncover three restaurant
+            archetypes (family-casual, mid-range social, quick-service) —
+            providing actionable insights for restaurant operations and
+            marketing.
           </p>
           <a
             href="https://github.com/AichuTan/BDA602_final_yelp_analysis"
