@@ -10,83 +10,91 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
-  <!-- Mobile Menu Button -->
-  <button class="mobile-menu-toggle" aria-label="Toggle navigation">☰</button>
-
-  <!-- Mobile Navigation Menu -->
-  <nav class="mobile-nav">
-    <ul>
-      <li>
-        <a href="#featured-projects"
-          ><i class="fa-solid fa-briefcase"></i> Portfolio</a
-        >
-      </li>
-      <li>
-        <a href="#skills"><i class="fa-solid fa-code"></i> Skills</a>
-      </li>
-      <li>
-        <a href="#education"
-          ><i class="fa-solid fa-graduation-cap"></i> Education</a
-        >
-      </li>
-      <li>
-        <a href="#experience"
-          ><i class="fa-solid fa-clipboard-list"></i> Experience</a
-        >
-      </li>
-      <li>
-        <a href="#publications"
-          ><i class="fa-solid fa-book-open"></i> Publications</a
-        >
-      </li>
-      <li>
-        <a href="#resume"><i class="fa-solid fa-file-lines"></i> Resume</a>
-      </li>
-    </ul>
-  </nav>
 
   <body>
+    <!-- Mobile Menu Button -->
+    <button
+      class="mobile-menu-toggle"
+      type="button"
+      aria-label="Toggle navigation"
+    >
+      ☰
+    </button>
+
+    <!-- Mobile Navigation Menu -->
+    <nav class="mobile-nav">
+      <ul>
+        <li>
+          <a href="#about"><i class="fa-solid fa-user"></i> About</a>
+        </li>
+        <li>
+          <a href="#featured-projects"
+            ><i class="fa-solid fa-briefcase"></i> Portfolio</a
+          >
+        </li>
+        <li>
+          <a href="#skills"><i class="fa-solid fa-code"></i> Skills</a>
+        </li>
+        <li>
+          <a href="#education"
+            ><i class="fa-solid fa-graduation-cap"></i> Education</a
+          >
+        </li>
+        <li>
+          <a href="#experience"
+            ><i class="fa-solid fa-clipboard-list"></i> Experience</a
+          >
+        </li>
+        <li>
+          <a href="#publications"
+            ><i class="fa-solid fa-book-open"></i> Publications</a
+          >
+        </li>
+        <li>
+          <a href="#resume"><i class="fa-solid fa-file-lines"></i> Resume</a>
+        </li>
+      </ul>
+    </nav>
+
     <!-- Sidebar -->
     <div class="sidebar" id="sidebar">
       <img src="my_image.jpg" alt="Aichu Tan" class="avatar" />
       <div class="sidebar-content">
         <nav>
           <ul>
-            <ul>
-              <li>
-                <a href="#about" class="active"
-                  ><i class="fa-solid fa-user"></i> About</a
-                >
-              </li>
-              <li>
-                <a href="#featured-projects"
-                  ><i class="fa-solid fa-briefcase"></i> Portfolio</a
-                >
-              </li>
-              <li>
-                <a href="#skills"><i class="fa-solid fa-code"></i> Skills</a>
-              </li>
-              <li>
-                <a href="#education"
-                  ><i class="fa-solid fa-graduation-cap"></i> Education</a
-                >
-              </li>
-              <li>
-                <a href="#experience"
-                  ><i class="fa-solid fa-clipboard-list"></i> Experience</a
-                >
-              </li>
-              <li>
-                <a href="#publications"
-                  ><i class="fa-solid fa-book-open"></i> Publications</a
-                >
-              </li>
-              <li>
-                <a href="#resume"
-                  ><i class="fa-solid fa-file-lines"></i> Resume</a
-                >
-              </li>
-            </ul>
+            <li>
+              <a href="#about" class="active"
+                ><i class="fa-solid fa-user"></i> About</a
+              >
+            </li>
+            <li>
+              <a href="#featured-projects"
+                ><i class="fa-solid fa-briefcase"></i> Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="#skills"><i class="fa-solid fa-code"></i> Skills</a>
+            </li>
+            <li>
+              <a href="#education"
+                ><i class="fa-solid fa-graduation-cap"></i> Education</a
+              >
+            </li>
+            <li>
+              <a href="#experience"
+                ><i class="fa-solid fa-clipboard-list"></i> Experience</a
+              >
+            </li>
+            <li>
+              <a href="#publications"
+                ><i class="fa-solid fa-book-open"></i> Publications</a
+              >
+            </li>
+            <li>
+              <a href="#resume"
+                ><i class="fa-solid fa-file-lines"></i> Resume</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
@@ -96,7 +104,7 @@
       <section id="about">
         <h1 class="name">AICHU TAN</h1>
         <p class="tagline">
-          Data Scientist • AI & LLM Applications • Full-Stack Data Projects
+          Data Scientist • AI &amp; LLM Applications • Full-Stack Data Projects
         </p>
         <p>
           I'm a data analyst and AI enthusiast pursuing an M.S. in Big Data
@@ -125,8 +133,51 @@
         </div>
       </section>
 
+      <!-- FEATURED PROJECTS -->
       <section id="featured-projects">
-        <h2>Featured Projects</h2>
+        <h2>My Projects</h2>
+        <div class="project-card">
+          <h3>End-to-End Dengue Forecasting in Southern Taiwan</h3>
+          <p>
+            <strong>Tools:</strong> Python, Pandas, Scikit-learn, XGBoost,
+            Random Forest, LSTM, LSTM-Transformer, Time-series Forecasting,
+            Streamlit, Supabase, Render, ArcGIS
+          </p>
+          <p>
+            Built an end-to-end forecasting system for weekly dengue cases in
+            Kaohsiung, Tainan, and Pingtung using a 15-year (2010-2024) dataset
+            that integrates dengue surveillance, climate, rainfall, and mosquito
+            indices (BI/HI/CI). Implemented and compared tree-based and
+            deep-learning models for one-week-ahead forecasts, with Random
+            Forest and XGBoost achieving the most reliable performance on recent
+            outbreaks. Delivered the solution as a cloud-hosted Streamlit
+            dashboard backed by Supabase, plus an ArcGIS dashboard for spatial
+            outbreak visualization, providing an early-warning tool to support
+            public health decision-making.
+          </p>
+          <a
+            href="https://aichutan.github.io/Dengue_Taiwan_Forecast/"
+            target="_blank"
+            class="project-btn"
+          >
+            Project Page
+          </a>
+          <a
+            href="https://dengue-taiwan-forecast.onrender.com/"
+            target="_blank"
+            class="project-btn"
+          >
+            Live Dashboard
+          </a>
+          <a
+            href="https://github.com/AichuTan/Dengue_Taiwan_Forecast"
+            target="_blank"
+            class="project-btn"
+          >
+            View on GitHub
+          </a>
+        </div>
+
         <div class="project-card">
           <h3>AI-Powered Plant Disease Detection</h3>
           <p>
@@ -147,6 +198,12 @@
             support smallholder farmers in Africa.
           </p>
           <a
+            href="https://aichutan.github.io/ai_for_farmers/"
+            target="_blank"
+            class="project-btn"
+            >Project Page</a
+          >
+          <a
             href="https://huggingface.co/spaces/aycu2004/ai_for_farmer"
             target="_blank"
             >View Live Demo</a
@@ -155,7 +212,7 @@
             href="https://github.com/AichuTan/ai_for_farmers"
             target="_blank"
             class="project-btn"
-            >💻 View on GitHub</a
+            >View on GitHub</a
           >
         </div>
 
@@ -175,17 +232,18 @@
             <strong>0.733 accuracy and 0.79 ROC-AUC</strong> with XGBoost.
             Conducted feature importance and clustering analyses to identify key
             drivers of customer satisfaction and uncover three restaurant
-            archetypes (family-casual, mid-range social, quick-service) —
+            archetypes (family-casual, mid-range social, quick-service),
             providing actionable insights for restaurant operations and
             marketing.
           </p>
           <a
-            href="https://github.com/AichuTan/BDA602_final_yelp_analysis"
+            href="https://aichutan.github.io/BDA602_final_yelp_analysis/"
             target="_blank"
             class="project-btn"
-            >💻 View on GitHub</a
+            >Project Page</a
           >
         </div>
+
         <div class="project-card">
           <h3>Online Ticket Database Management System</h3>
           <p>
@@ -203,15 +261,12 @@
           >
         </div>
 
-        <button id="toggle-projects">View All Projects</button>
-      </section>
-      <section id="all-projects">
         <div class="project-card">
           <h3>Anti-Wage Theft Data Project</h3>
           <p><strong>Tools:</strong> R, Tableau, SQL, ARIMA Time Series</p>
           <p>
             Analyzed wage theft claim data from the California Labor
-            Commissioner’s Office using R and Tableau. Explored time to hearing,
+            Commissioner's Office using R and Tableau. Explored time to hearing,
             recovery rates, and trends by industry and location.
           </p>
           <a
@@ -219,7 +274,6 @@
             target="_blank"
             >View Project Website</a
           >
-
           <a
             href="https://github.com/AichuTan/Anti-Wage-Theft-Data-Project"
             target="_blank"
@@ -227,6 +281,7 @@
             GitHub Repository</a
           >
         </div>
+
         <div class="project-card">
           <h3>Mapping for Change</h3>
           <p><strong>Tools:</strong> HTML, ArcGIS Dashboard, GitHub Pages</p>
@@ -237,9 +292,10 @@
           <a
             href="https://aichutan.github.io/Mapping-for-change/index.html"
             target="_blank"
-            >Live Site</a
+            >Project Page</a
           >
         </div>
+
         <div class="project-card">
           <h3>Horizon Hotels Decision Support System</h3>
           <p><strong>Tools:</strong> SQL Server, Power BI, Weka, Python, NLP</p>
@@ -247,7 +303,7 @@
             Developed a comprehensive design specification for a proposed
             Decision Support System (DSS) at Horizon Hotels. The report outlines
             system goals, AI-based personalization strategies, NLP sentiment
-            analysis, user roles, and dashboard features — all designed to
+            analysis, user roles, and dashboard features, all designed to
             support future implementation.
           </p>
           <a href="https://aichutan.github.io/MIS-691/" target="_blank">
@@ -268,7 +324,7 @@
             real-time data from CAL FIRE and LA County Census.
           </p>
           <a href="https://aichutan.github.io/LA-FireMap/" target="_blank"
-            >View Live Site</a
+            >Project Page</a
           >
           <a href="https://github.com/AichuTan/LA-FireMap" target="_blank"
             >GitHub Repository</a
@@ -306,7 +362,7 @@
           <a
             href="https://aichutan.github.io/Google-Analytics-Bellabeat/"
             target="_blank"
-            >View Live Site</a
+            >Project Page</a
           >
           <a
             href="https://github.com/AichuTan/Google-Analytics-Bellabeat"
@@ -336,7 +392,7 @@
           </div>
 
           <div class="skill-group">
-            <h4>AI & ML Frameworks</h4>
+            <h4>AI &amp; ML Frameworks</h4>
             <ul>
               <li>YOLOv8</li>
               <li>LangChain</li>
@@ -352,7 +408,7 @@
           </div>
 
           <div class="skill-group">
-            <h4>Data & Tools</h4>
+            <h4>Data &amp; Tools</h4>
             <ul>
               <li>Pandas / NumPy</li>
               <li>RStudio</li>
@@ -368,7 +424,7 @@
           </div>
 
           <div class="skill-group">
-            <h4>Cloud & Platforms</h4>
+            <h4>Cloud &amp; Platforms</h4>
             <ul>
               <li>AWS (EC2, S3, RDS)</li>
               <li>Google Cloud Platform</li>
@@ -384,7 +440,7 @@
           </div>
 
           <div class="skill-group">
-            <h4>Web & App</h4>
+            <h4>Web &amp; App</h4>
             <ul>
               <li>Streamlit</li>
               <li>HTML/CSS</li>
@@ -409,7 +465,7 @@
             <div>
               <h3>San Diego State University (SDSU)</h3>
               <p><strong>Master of Science in Big Data Analytics</strong></p>
-              <p>Aug 2024 – Present | GPA: 4.0</p>
+              <p>Aug 2024 - Dec 2025 | GPA: 4.0</p>
             </div>
           </div>
         </div>
@@ -419,7 +475,7 @@
             <img src="icons/google.png" alt="Coursera Logo" class="edu-logo" />
             <div>
               <h3>Google Data Analytics Professional Certificate</h3>
-              <p>Completed via Coursera – Dec 2022</p>
+              <p>Completed via Coursera - Dec 2022</p>
             </div>
           </div>
         </div>
@@ -439,10 +495,70 @@
 
       <section id="experience">
         <h2>Experience</h2>
+        <div class="exp-entry">
+          <h3>Data Science Researcher - SDSU DiMoLab (Internship)</h3>
+          <p><strong>Sep 2025 - Present | San Diego, CA</strong></p>
+          <ul>
+            <li>
+              Developed and evaluated
+              <strong>time-series forecasting models</strong> to predict dengue
+              case dynamics using multi-year epidemiological, climate, and
+              mosquito surveillance datasets.
+            </li>
+            <li>
+              Performed
+              <strong>risk modeling and feature engineering</strong> to identify
+              key outbreak drivers including temperature, rainfall, humidity,
+              and lagged case patterns.
+            </li>
+            <li>
+              Applied
+              <strong>machine learning forecasting methods</strong> - trend
+              analysis, lag-based modeling, error diagnostics, and validation -
+              support public health decision-making.
+            </li>
+            <li>
+              Contributed to an
+              <strong>AI-driven early-warning framework</strong> for dengue
+              surveillance and resource planning in Southern Taiwan.
+            </li>
+          </ul>
+        </div>
+        <div class="exp-entry">
+          <h3>AI Researcher - Metabolism of Cities Living Lab (Internship)</h3>
+          <p><strong>Feb 2025 - Present | San Diego, CA</strong></p>
+          <ul>
+            <li>
+              Developed an AI-powered agricultural support system using
+              <strong>YOLO-based plant disease detection</strong> and
+              <strong>LLM-generated treatment recommendations</strong> to assist
+              indigenous farming communities in Central Africa.
+            </li>
+            <li>
+              Designed and implemented machine learning pipelines to identify
+              crop risks and provide
+              <strong>actionable, culturally informed insights</strong> that
+              support sustainable farming practices.
+            </li>
+            <li>
+              Integrated
+              <strong>traditional ecological knowledge (TEK)</strong> with AI
+              models to improve transparency, trust, and real-world
+              applicability.
+            </li>
+            <li>
+              Contributed research accepted as a
+              <strong
+                >poster presentation at the 4th International One Health
+                Conference (Rome, 2025)</strong
+              >.
+            </li>
+          </ul>
+        </div>
 
         <div class="exp-entry">
-          <h3>Business Owner – Wholesale Clothing</h3>
-          <p><strong>April 2009 – Oct 2016 | Taiwan</strong></p>
+          <h3>Business Owner - Wholesale Clothing</h3>
+          <p><strong>April 2009 - Oct 2016 | Taiwan</strong></p>
           <ul>
             <li>
               Increased sales by 50% by analyzing market trends and customer
@@ -460,8 +576,8 @@
         </div>
 
         <div class="exp-entry">
-          <h3>Process Engineer – ProMOS Technology (DRAM Manufacturing)</h3>
-          <p><strong>July 2004 – Feb 2009 | Taiwan</strong></p>
+          <h3>Process Engineer - ProMOS Technology (DRAM Manufacturing)</h3>
+          <p><strong>July 2004 - Feb 2009 | Taiwan</strong></p>
           <ul>
             <li>
               Improved DRAM yield through statistical process control (SPC)
@@ -478,8 +594,8 @@
         </div>
 
         <div class="exp-entry">
-          <h3>Assistant Research Professor – NCKU Chemistry Department</h3>
-          <p><strong>July 2003 – June 2004 | Taiwan</strong></p>
+          <h3>Assistant Research Professor - NCKU Chemistry Department</h3>
+          <p><strong>July 2003 - June 2004 | Taiwan</strong></p>
           <ul>
             <li>
               Researched nanoparticle-biomolecule interactions for medical
@@ -498,13 +614,14 @@
             Detection and Advisory System
           </h3>
           <p>
-            Tan, A., Vito, D., & Fernandez, G. (2025).
+            Tan, A., Vito, D., &amp; Fernandez, G. (2025).
             <em>4th International One Health Conference (Rome, Italy)</em>.
           </p>
           <a
             href="https://onehealthconference.it/"
             class="pub-button"
             title="View Conference Website"
+            target="_blank"
             >View Publication</a
           >
         </div>
@@ -541,47 +658,23 @@
         </div>
       </section>
     </div>
-    <script>
-      const toggleBtn = document.getElementById("toggle-projects");
-      const allProjects = document.getElementById("all-projects");
 
-      let isExpanded = false;
-
-      toggleBtn.addEventListener("click", () => {
-        if (!isExpanded) {
-          // Expand
-          allProjects.style.height = allProjects.scrollHeight + "px";
-          allProjects.style.opacity = "1";
-          toggleBtn.textContent = "Show Fewer Projects";
-
-          // Optional scroll into view
-          setTimeout(() => {
-            allProjects.scrollIntoView({ behavior: "smooth" });
-          }, 300);
-        } else {
-          // Collapse
-          allProjects.style.height = "0";
-          allProjects.style.opacity = "0";
-          toggleBtn.textContent = "View All Projects";
-        }
-
-        isExpanded = !isExpanded;
-      });
-    </script>
+    <!-- Simple JS for mobile nav -->
     <script>
       const toggle = document.querySelector(".mobile-menu-toggle");
       const nav = document.querySelector(".mobile-nav");
 
-      toggle.addEventListener("click", () => {
-        nav.classList.toggle("open");
-      });
-
-      // Optional: Close menu after clicking a link
-      document.querySelectorAll(".mobile-nav a").forEach((link) => {
-        link.addEventListener("click", () => {
-          nav.classList.remove("open");
+      if (toggle && nav) {
+        toggle.addEventListener("click", () => {
+          nav.classList.toggle("open");
         });
-      });
+
+        document.querySelectorAll(".mobile-nav a").forEach((link) => {
+          link.addEventListener("click", () => {
+            nav.classList.remove("open");
+          });
+        });
+      }
     </script>
   </body>
 </html>
