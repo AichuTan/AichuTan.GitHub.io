@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -104,26 +104,49 @@
       <section id="about">
         <h1 class="name">AICHU TAN</h1>
         <p class="tagline">
-          Data Scientist • AI &amp; LLM Applications • Full-Stack Data Projects
+          Data Scientist • AI &amp; Machine Learning • AI & LLM Applications
         </p>
         <p>
-          I am a Data Scientist completing my M.S. in Big Data Analytics at San
-          Diego State University (Graduating Dec 2025). I build end-to-end AI
-          and data science solutions using machine learning, deep learning
-          (LSTM), computer vision (YOLO), large language models (LLMs via
-          LangChain), and time-series forecasting, with applications in
-          agriculture, public health, and urban systems.
+          M.S. in Big Data Analytics (Dec 2025) with experience building
+          end-to-end data science and AI systems across public health,
+          agriculture, and urban analytics. Skilled in machine learning,
+          time-series forecasting, computer vision (YOLO), and LLM-based
+          applications (LangChain), with a focus on delivering scalable,
+          real-world solutions.
         </p>
         <p>
-          I’m passionate about transforming complex data into meaningful
-          insights. My experience includes developing cloud-deployed AI systems
-          (Streamlit, Supabase, Render), building LSTM-based time-series models,
-          and creating LLM-powered pipelines using LangChain. I work with
-          Python, SQL, R, ArcGIS, and Tableau, and leverage cloud platforms such
-          as AWS, Azure, Supabase, and Render to deploy scalable, data-driven
-          applications.
+          Experienced in developing production-ready pipelines, including data
+          engineering, model development, and cloud deployment using Streamlit,
+          Supabase, Render, and AWS. Proficient in Python, SQL, R, and data
+          visualization tools such as Tableau and ArcGIS.
         </p>
 
+        <p>
+          Passionate about building data-driven systems that support
+          decision-making, improve operational efficiency, and create real-world
+          impact.
+        </p>
+        <div class="highlights">
+          <h3>Key Highlights</h3>
+          <ul>
+            <li>
+              Built 5+ end-to-end data science and AI systems (ML, LLM, Computer
+              Vision)
+            </li>
+            <li>
+              Deployed production-ready applications using Streamlit, Hugging
+              Face, and cloud platforms
+            </li>
+            <li>
+              Achieved strong model performance (R² up to 0.89, mAP@50 up to
+              0.894)
+            </li>
+            <li>
+              Experience across public health, agriculture, and urban analytics
+              domains
+            </li>
+          </ul>
+        </div>
         <div class="social-icons">
           <a href="mailto:thedebbietan@gmail.com" target="_blank"
             ><i class="fas fa-envelope"></i
@@ -143,21 +166,63 @@
         <div class="project-card">
           <h3>End-to-End Dengue Forecasting in Southern Taiwan</h3>
           <p>
-            <strong>Tools:</strong> Python, Pandas, Scikit-learn, XGBoost,
-            Random Forest, LSTM, LSTM-Transformer, Time-series Forecasting,
-            Streamlit, Supabase, Render, ArcGIS
+            <strong>Tools:</strong> Python, Scikit-learn, XGBoost, Random
+            Forest, LSTM, Transformer, Time Series Forecasting, Feature
+            Engineering, ArcGIS, Streamlit, Supabase, Render (Cloud), SQL
           </p>
+
           <p>
-            Built an end-to-end forecasting system for weekly dengue cases in
-            Kaohsiung, Tainan, and Pingtung using a 15-year (2010-2024) dataset
-            that integrates dengue surveillance, climate, rainfall, and mosquito
-            indices (BI/HI/CI). Implemented and compared tree-based and
-            deep-learning models for one-week-ahead forecasts, with Random
-            Forest and XGBoost achieving the most reliable performance on recent
-            outbreaks. Delivered the solution as a cloud-hosted Streamlit
-            dashboard backed by Supabase, plus an ArcGIS dashboard for spatial
-            outbreak visualization, providing an early-warning tool to support
-            public health decision-making.
+            Built an end-to-end machine learning pipeline to forecast weekly
+            dengue cases across Southern Taiwan using 15+ years of
+            epidemiological, climate, and mosquito data, enabling early-warning
+            insights for public health decision-making.
+          </p>
+
+          <ul>
+            <li>
+              Integrated multi-source datasets (2010–2024) including dengue
+              surveillance, climate, rainfall, and mosquito indices into a
+              unified weekly time-series dataset
+            </li>
+
+            <li>
+              Engineered lag-based features (1–15 weeks) to capture delayed
+              environmental and epidemiological effects on dengue transmission
+            </li>
+
+            <li>
+              Developed and compared multiple models including Random Forest,
+              XGBoost, LSTM, and LSTM–Transformer using time-series validation
+            </li>
+
+            <li>
+              Achieved strong predictive performance with tree-based models
+              (e.g., Random Forest R² = 0.899 in Kaohsiung), outperforming deep
+              learning models in outbreak prediction
+            </li>
+
+            <li>
+              Identified key drivers of dengue risk, with recent case lags and
+              climate variables as the most influential features
+            </li>
+
+            <li>
+              Designed and deployed a cloud-based architecture using Supabase
+              (data storage) and Render (hosting), enabling scalable and
+              reproducible model serving
+            </li>
+
+            <li>
+              Built interactive dashboards using Streamlit and ArcGIS to
+              visualize forecasts, model performance, and spatiotemporal
+              outbreak patterns
+            </li>
+          </ul>
+
+          <p>
+            <strong>Impact:</strong> Developed a scalable early-warning system
+            for dengue outbreaks, enabling data-driven public health planning,
+            resource allocation, and proactive disease prevention strategies.
           </p>
           <a
             href="https://aichutan.github.io/Dengue_Taiwan_Forecast/"
@@ -183,62 +248,152 @@
         </div>
 
         <div class="project-card">
-          <h3>AI-Powered Plant Disease Detection</h3>
+          <h3>
+            AI for Farmers: Computer Vision & LLM-Based Plant Disease Detection
+            System
+          </h3>
+
           <p>
-            <strong>Tools:</strong> Python, YOLOv8, LangChain, LLM, Streamlit,
-            Azure Database
+            <strong>Tools:</strong> Python, YOLOv8, PyTorch, LangChain, LLM,
+            RAG, Streamlit, Hugging Face
           </p>
+
           <p>
-            Designed and deployed an AI system to detect and diagnose plant
-            diseases from uploaded images, enabling real-time decision support
-            for farmers. Trained a <strong>YOLOv8</strong> model for multi-class
-            disease detection and integrated it with a
-            <strong>LangChain-powered LLM</strong> to automatically generate
-            treatment and prevention advice. Built a
-            <strong>Streamlit web interface</strong> connected to an
-            <strong>Azure database</strong> for structured retrieval of
-            guidance. The system was
-            <strong>open-sourced and deployed on Hugging Face Spaces</strong> to
-            support smallholder farmers in Africa.
+            Designed and deployed an end-to-end AI system that combines computer
+            vision and retrieval-augmented generation (RAG) to detect plant
+            diseases and deliver real-time, actionable agricultural
+            recommendations.
           </p>
+
+          <ul>
+            <li>
+              Trained a YOLOv8 object detection model on 13,500+ annotated
+              images across 20 disease classes, achieving strong performance
+              (mAP@50: 0.894, Recall: 0.862)
+            </li>
+            <li>
+              Built a full ML pipeline including data preprocessing, annotation,
+              augmentation, and model evaluation using precision, recall, and
+              mAP metrics
+            </li>
+            <li>
+              Developed a retrieval-augmented advisory system using LangChain
+              and LLMs to generate structured, farmer-friendly recommendations
+              from agricultural literature
+            </li>
+            <li>
+              Implemented a vector-based knowledge retrieval system by
+              transforming agricultural documents into embeddings for efficient
+              semantic search
+            </li>
+            <li>
+              Designed a two-stage architecture (offline knowledge processing +
+              real-time inference) to enable scalable and low-latency deployment
+            </li>
+            <li>
+              Built an interactive web application using
+              <strong>Streamlit</strong> allowing users to upload plant images
+              and receive real-time disease predictions and treatment guidance
+            </li>
+            <li>
+              Deployed the application on <strong>Hugging Face Spaces</strong>,
+              enabling scalable cloud-based access and public demonstration of
+              the AI system
+            </li>
+          </ul>
+
+          <p>
+            <strong>Impact:</strong> Delivered a scalable AI-driven decision
+            support system that improves early disease detection, reduces
+            reliance on harmful pesticides, and promotes sustainable agriculture
+            for smallholder farmers.
+          </p>
+
           <a
             href="https://aichutan.github.io/ai_for_farmers/"
             target="_blank"
             class="project-btn"
-            >Project Page</a
           >
+            Project Page
+          </a>
+
           <a
             href="https://huggingface.co/spaces/aycu2004/ai_for_farmer"
             target="_blank"
-            >View Live Demo</a
+            class="project-btn"
           >
+            Live Demo
+          </a>
+
           <a
             href="https://github.com/AichuTan/ai_for_farmers"
             target="_blank"
             class="project-btn"
-            >View on GitHub</a
           >
+            GitHub Repository
+          </a>
         </div>
 
         <div class="project-card">
-          <h3>Predicting Restaurant Ratings Using Yelp Metadata</h3>
+          <h3>
+            Predicting Restaurant Ratings Using Yelp Data (Machine Learning)
+          </h3>
+
           <p>
             <strong>Tools:</strong> Python, Scikit-learn, XGBoost, Random
-            Forest, MLflow, Pandas, K-Prototypes
+            Forest, MLflow, Pandas, Feature Engineering, Machine Learning,
+            Clustering
           </p>
+
           <p>
-            Designed and implemented a machine learning pipeline to predict
-            restaurant success (≥4★ vs &lt;4★) using structured metadata from
-            36,000+ Yelp businesses. Engineered 61 features and applied Logistic
-            Regression, Elastic Net, Random Forest, and XGBoost with 5-fold
-            cross-validation and MLflow experiment tracking. Optimized ensemble
-            models, achieving
-            <strong>0.733 accuracy and 0.79 ROC-AUC</strong> with XGBoost.
-            Conducted feature importance and clustering analyses to identify key
-            drivers of customer satisfaction and uncover three restaurant
-            archetypes (family-casual, mid-range social, quick-service),
-            providing actionable insights for restaurant operations and
-            marketing.
+            Developed an end-to-end machine learning pipeline to predict
+            restaurant ratings using structured Yelp metadata, uncovering key
+            drivers of customer satisfaction without relying on text reviews.
+          </p>
+
+          <ul>
+            <li>
+              Processed and engineered 60+ features from 36,000+ restaurant
+              records, transforming complex JSON data into a structured
+              analytical dataset
+            </li>
+            <li>
+              Built and compared multiple supervised models (Logistic
+              Regression, Elastic Net, Random Forest, XGBoost) using
+              Scikit-learn pipelines and 5-fold cross-validation
+            </li>
+            <li>
+              Achieved strong predictive performance with XGBoost (Accuracy:
+              0.73, ROC-AUC: 0.79) and Random Forest (best F1-score: 0.66)
+            </li>
+            <li>
+              Designed a robust ML pipeline including feature scaling, encoding,
+              imputation, and hyperparameter tuning to prevent data leakage
+            </li>
+            <li>
+              Implemented MLflow for experiment tracking, model comparison, and
+              reproducibility
+            </li>
+            <li>
+              Conducted feature importance and model interpretability analysis
+              to identify key drivers of ratings (price, amenities, service
+              features)
+            </li>
+            <li>
+              Applied K-Prototypes clustering to segment restaurants into
+              distinct business archetypes based on operational characteristics
+            </li>
+            <li>
+              Generated actionable insights showing that accessibility, service
+              quality, and amenities significantly impact customer satisfaction
+            </li>
+          </ul>
+
+          <p>
+            <strong>Impact:</strong> Demonstrated that structured business
+            metadata alone can effectively predict customer ratings, providing
+            actionable insights for improving restaurant performance and
+            customer experience.
           </p>
           <a
             href="https://aichutan.github.io/BDA602_final_yelp_analysis/"
@@ -249,14 +404,58 @@
         </div>
 
         <div class="project-card">
-          <h3>Online Ticket Database Management System</h3>
+          <h3>
+            Online Ticket Reservation: Data Modeling & Analytics Dashboard
+          </h3>
           <p>
-            <strong>Tools:</strong> MySQL, AWS RDS, ERD, SQL, Python, Jupyter,
-            Datapane
+            <strong>Tools:</strong> SQL (MySQL), Python, AWS RDS, Data Modeling
+            (ERD), Data Analysis, Dashboarding
           </p>
           <p>
-            Built a full-stack ticket reservation system including data
-            modeling, AWS database, and a Python dashboard.
+            Designed and implemented a relational database system with
+            integrated analytics to generate business insights on ticket sales,
+            customer behavior, and revenue performance.
+          </p>
+
+          <ul>
+            <li>
+              Designed normalized relational database schema (ERD → relational
+              model) supporting complex relationships across users, events,
+              bookings, and payments
+            </li>
+            <li>
+              Implemented database in MySQL with constraints, indexes, triggers,
+              and stored procedures to ensure data integrity and optimize query
+              performance
+            </li>
+            <li>
+              Deployed database on AWS RDS with role-based access control (admin
+              vs read-only users) for secure and scalable data management
+            </li>
+            <li>
+              Wrote advanced SQL queries to analyze key business metrics
+              including revenue trends, top-performing events, venue
+              utilization, and customer segmentation
+            </li>
+            <li>
+              Engineered analytical features such as monthly revenue growth,
+              ticket category distribution, and organizer revenue contribution
+            </li>
+            <li>
+              Built an interactive dashboard (Python + Datapane) to visualize
+              KPIs including total revenue ($70K+), bookings, and customer
+              insights
+            </li>
+            <li>
+              Identified patterns in customer behavior, payment methods, and
+              discount usage to support data-driven decision-making
+            </li>
+          </ul>
+
+          <p>
+            <strong>Impact:</strong> Transformed transactional data into
+            actionable insights, enabling analysis of revenue drivers, customer
+            segments, and operational performance for business optimization.
           </p>
           <a
             href="https://aichutan.github.io/Online-Ticket-Database-Management-System/"
@@ -266,18 +465,61 @@
         </div>
 
         <div class="project-card">
-          <h3>Anti-Wage Theft Data Project</h3>
-          <p><strong>Tools:</strong> R, Tableau, SQL, ARIMA Time Series</p>
+          <h3>Wage Theft Analysis: Data-Driven Study of Labor Inequality</h3>
           <p>
-            Analyzed wage theft claim data from the California Labor
-            Commissioner's Office using R and Tableau. Explored time to hearing,
-            recovery rates, and trends by industry and location.
+            <strong>Tools:</strong> R (dplyr, forecast), Tableau, SQL, Data
+            Analysis, Time Series Modeling, Spatial Analysis
+          </p>
+
+          <p>
+            Conducted end-to-end data analysis of wage theft claims to uncover
+            inefficiencies in labor enforcement systems using statistical
+            modeling and geospatial analysis.
+          </p>
+
+          <ul>
+            <li>
+              Cleaned and integrated multi-source datasets (2011–2016),
+              resolving duplicates and inconsistencies to produce 6,500+
+              verified records
+            </li>
+            <li>
+              Engineered key features including claim duration, wage recovery
+              rate, and geographic indicators (ZIP code extraction)
+            </li>
+            <li>
+              Quantified claim processing delays, identifying a 230-day average
+              time to hearing—over 2× the legally required timeframe
+            </li>
+            <li>
+              Calculated that only ~35% of verified wages were recovered,
+              revealing systemic gaps in enforcement outcomes
+            </li>
+            <li>
+              Developed ARIMA time series model in R to forecast claim
+              resolution time (~264 days average)
+            </li>
+            <li>
+              Built interactive Tableau dashboards to analyze industry trends,
+              wage recovery, and geographic distribution of violations
+            </li>
+            <li>
+              Performed geospatial analysis revealing nationwide distribution of
+              wage theft cases across industries
+            </li>
+          </ul>
+
+          <p>
+            <strong>Impact:</strong> Provided data-driven evidence of
+            inefficiencies in wage claim processing and recovery, supporting
+            labor policy improvements and resource allocation decisions.
           </p>
           <a
             href="https://sites.google.com/sdsu.edu/wagetheft/home?authuser=1"
             target="_blank"
             >View Project Website</a
           >
+
           <a
             href="https://github.com/AichuTan/Anti-Wage-Theft-Data-Project"
             target="_blank"
@@ -285,50 +527,160 @@
             GitHub Repository</a
           >
         </div>
-
         <div class="project-card">
-          <h3>Mapping for Change - Urban Inequality Analysis </h3>
-          <p><strong>Tools:</strong> HTML, ArcGIS Dashboard, GitHub Pages</p>
+          <h3>Mapping for Change: Spatial Analysis of Urban Inequality</h3>
           <p>
-            Built an interactive ArcGIS dashboard analyzing homelessness, housing affordability, and environmental inequality using ACS, 311, PITC, and Tree Equity data. 
-            Applied spatial analysis techniques to identify inequality patterns and deployed a public website to support data-driven urban planning decisions.
+            <strong>Tools:</strong> ArcGIS, Spatial Analysis, Data
+            Visualization, HTML, GitHub Pages
+          </p>
+
+          <p>
+            Conducted a data-driven spatial analysis to examine the intersection
+            of housing burden, homelessness, and environmental inequality across
+            Downtown San Diego using multi-source public datasets.
+          </p>
+
+          <ul>
+            <li>
+              Integrated multiple datasets including 311 encampment reports,
+              PITC homelessness data, Census indicators, and Tree Equity Score
+            </li>
+            <li>
+              Engineered key metrics such as rent burden, affordability gap, and
+              environmental equity indicators
+            </li>
+            <li>
+              Performed spatial analysis using choropleth maps, heatmaps, and
+              layered geospatial visualization techniques
+            </li>
+            <li>
+              Modeled relationships between income, housing cost, homelessness
+              density, and green space access
+            </li>
+            <li>
+              Built an interactive ArcGIS dashboard enabling multi-layer
+              exploration and comparison of inequality patterns
+            </li>
+            <li>
+              Detected geographic clusters where housing instability,
+              environmental risk, and homelessness overlap
+            </li>
+          </ul>
+
+          <p>
+            <strong>Impact:</strong> Revealed high-risk neighborhoods with
+            compounded socioeconomic and environmental vulnerability, supporting
+            data-driven urban planning and policy decisions.
           </p>
           <a
             href="https://aichutan.github.io/Mapping-for-change/index.html"
             target="_blank"
-            >Project Page</a
+            >Live Site</a
           >
         </div>
 
         <div class="project-card">
-          <h3>Horizon Hotels Decision Support System</h3>
-          <p><strong>Tools:</strong> SQL Server, Power BI, Weka, Python, NLP</p>
+          <h3>Decision Support System Design for Personalized Hospitality</h3>
+
           <p>
-            Developed a comprehensive design specification for a proposed
-            Decision Support System (DSS) at Horizon Hotels. The report outlines
-            system goals, AI-based personalization strategies, NLP sentiment
-            analysis, user roles, and dashboard features, all designed to
-            support future implementation.
+            <strong>Tools:</strong> System Design, Machine Learning Concepts
           </p>
-          <a href="https://aichutan.github.io/MIS-691/" target="_blank">
+
+          <p>
+            Designed a comprehensive Decision Support System (DSS) to enable
+            real-time, data-driven decision-making for personalized guest
+            services in a hotel environment.
+          </p>
+
+          <ul>
+            <li>
+              Defined data flows and analytical pipelines to support machine
+              learning-driven recommendations
+            </li>
+            <li>
+              Analyzed decision-making needs across multiple user groups
+              (frontline staff, marketing, executives, and IT teams)
+            </li>
+            <li>
+              Designed a system architecture integrating heterogeneous data
+              sources (CRM, booking, POS, and customer feedback)
+            </li>
+            <li>
+              Defined data pipelines, preprocessing workflows, and data quality
+              requirements to support reliable analytics
+            </li>
+            <li>
+              Selected appropriate analytical methods (clustering,
+              classification, recommendation systems, NLP) based on decision
+              context
+            </li>
+            <li>
+              Designed role-specific dashboards to support real-time operational
+              decisions and long-term strategic planning
+            </li>
+            <li>
+              Considered real-world constraints including usability, latency,
+              data privacy, and system scalability
+            </li>
+          </ul>
+
+          <p>
+            <strong>Key Focus:</strong> Structured complex decision environments
+            into actionable system components, aligning data, models, and user
+            needs to support effective decision-making.
+          </p>
+
+          <a
+            href="https://raw.githubusercontent.com/AichuTan/MIS-691/main/DSS.doc"
+            target="_blank"
+          >
             View Full Report
           </a>
         </div>
 
         <div class="project-card">
-          <h3>LA County Wildfire Shelter Info</h3>
+          <h3>LA County Wildfire Decision Support System</h3>
           <p>
             <strong>Tools:</strong> HTML, CSS, JavaScript, Leaflet.js, ArcGIS,
-            GitHub Pages + Jekyll
+            GitHub Pages + Jekyll, Real-Time Data Integration
           </p>
           <p>
-            Built a public-facing wildfire support site as part of Team S.A.F.E.
-            to assist LA County residents with live shelter maps, hazard
-            exposure dashboards, and emergency resources. Designed with
-            real-time data from CAL FIRE and LA County Census.
+            Designed and developed an interactive decision support system to
+            help Los Angeles County residents identify nearby shelters, assess
+            wildfire risk, and access critical emergency resources in real time.
+          </p>
+
+          <ul>
+            <li>
+              Built an interactive map using Leaflet.js to visualize real-time
+              shelter locations, hospitals, and evacuation centers
+            </li>
+            <li>
+              Developed a geospatial dashboard to analyze wildfire hazard zones
+              and assess population exposure across Los Angeles County
+            </li>
+            <li>
+              Implemented filtering and search functionality to track shelter
+              availability (Available, Limited, Full) for real-time decision
+              support
+            </li>
+            <li>
+              Designed a multi-page web application integrating shelter finder,
+              hazard visualization, and emergency resource access
+            </li>
+            <li>
+              Optimized users to quickly identify high-risk areas and nearby
+              shelters, supporting faster emergency response and planning
+            </li>
+          </ul>
+          <p>
+            <strong>Impact:</strong> Developed a real-time geospatial decision
+            support tool that enables residents to identify wildfire risk zones
+            and nearby shelters, improving situational awareness and supporting
+            faster, data-driven emergency response.
           </p>
           <a href="https://aichutan.github.io/LA-FireMap/" target="_blank"
-            >Project Page</a
+            >View Live Site</a
           >
           <a href="https://github.com/AichuTan/LA-FireMap" target="_blank"
             >GitHub Repository</a
@@ -336,15 +688,52 @@
         </div>
 
         <div class="project-card">
-          <h3>Understanding the Hispanic Community in San Diego (2024)</h3>
+          <h3>
+            Spatial Analysis of Hispanic Community & Inequality in San Diego
+            (2024)
+          </h3>
           <p>
-            <strong>Tools:</strong> ArcGIS StoryMaps, Census Data, Interactive
-            Narrative
+            <strong>Tools:</strong> ArcGIS StoryMaps, Census Data, Spatial
+            Analysis
           </p>
+
           <p>
-            Developed a StoryMap to visualize and share insights about the
-            Hispanic community across San Diego, combining narrative, maps, and
-            multimedia to highlight social patterns and community perspectives.
+            Analyzed demographic, income, and education disparities in San Diego
+            using publicly available Census and socioeconomic datasets to
+            identify high-need communities and inequality patterns.
+          </p>
+
+          <ul>
+            <li>
+              Conducted exploratory data analysis (EDA) to identify
+              socioeconomic patterns
+            </li>
+            <li>
+              Integrated multiple public datasets (demographics, income,
+              education, environmental indicators)
+            </li>
+            <li>
+              Performed spatial analysis using ArcGIS (choropleth maps,
+              geographic comparisons)
+            </li>
+            <li>
+              Identified relationships between Hispanic population distribution
+              and socioeconomic factors
+            </li>
+            <li>
+              Built an interactive StoryMap to communicate insights through maps
+              and narrative
+            </li>
+            <li>
+              Highlighted geographic clusters to support data-driven policy and
+              urban planning decisions
+            </li>
+          </ul>
+          <p>
+            <strong>Impact:</strong> Uncovered geographic clusters of
+            socioeconomic inequality, enabling targeted resource allocation and
+            supporting data-driven urban planning and policy decisions for
+            underserved communities.
           </p>
           <a
             href="https://storymaps.arcgis.com/stories/983f5be9df0c427bb8748a8fde10072b"
@@ -366,7 +755,7 @@
           <a
             href="https://aichutan.github.io/Google-Analytics-Bellabeat/"
             target="_blank"
-            >Project Page</a
+            >View Live Site</a
           >
           <a
             href="https://github.com/AichuTan/Google-Analytics-Bellabeat"
@@ -383,13 +772,12 @@
             <h4>Programming</h4>
             <ul>
               <li>Python</li>
-              <li>C++</li>
               <li>SQL</li>
+              <li>R</li>
               <li>JavaScript</li>
             </ul>
             <div class="skill-logos">
               <img src="icons/python.svg" alt="Python" />
-              <img src="icons/cplusplus.svg" alt="C++" />
               <img src="icons/mysql.svg" alt="SQL" />
               <img src="icons/javascript.svg" alt="JavaScript" />
             </div>
@@ -398,10 +786,12 @@
           <div class="skill-group">
             <h4>AI &amp; ML Frameworks</h4>
             <ul>
-              <li>YOLOv8</li>
-              <li>LangChain</li>
-              <li>TensorFlow</li>
               <li>Scikit-learn</li>
+              <li>XGBoost</li>
+              <li>Random Forest</li>
+              <li>TensorFlow / PyTorch</li>
+              <li>YOLOv8 (Computer Vision)</li>
+              <li>LangChain (LLM, RAG)</li>
             </ul>
             <div class="skill-logos">
               <img src="icons/yolo.svg" alt="YOLOv8" />
@@ -412,12 +802,13 @@
           </div>
 
           <div class="skill-group">
-            <h4>Data &amp; Tools</h4>
+            <h4>Data Science & Analytics</h4>
             <ul>
-              <li>Pandas / NumPy</li>
-              <li>RStudio</li>
-              <li>Tableau</li>
-              <li>ArcGIS</li>
+              <li>Time Series Forecasting</li>
+              <li>Feature Engineering</li>
+              <li>Statistical Analysis</li>
+              <li>Geospatial Analysis (ArcGIS)</li>
+              <li>Data Visualization (Tableau)</li>
             </ul>
             <div class="skill-logos">
               <img src="icons/pandas.svg" alt="Pandas" />
@@ -428,27 +819,28 @@
           </div>
 
           <div class="skill-group">
-            <h4>Cloud &amp; Platforms</h4>
+            <h4>Cloud & Deployment</h4>
             <ul>
               <li>AWS (EC2, S3, RDS)</li>
-              <li>Google Cloud Platform</li>
-              <li>Microsoft Azure</li>
-              <li>BigQuery Sandbox</li>
+              <li>Supabase</li>
+              <li>Render</li>
+              <li>Streamlit</li>
             </ul>
             <div class="skill-logos">
               <img src="icons/aws.png" alt="AWS" />
               <img src="icons/googlecolab.svg" alt="GCP" />
-              <img src="icons/azure.svg" alt="Azure" />
               <img src="icons/googlebigquery.svg" alt="BigQuery" />
             </div>
           </div>
 
           <div class="skill-group">
-            <h4>Web &amp; App</h4>
+            <h4>Web &amp; Tools</h4>
             <ul>
               <li>Streamlit</li>
               <li>HTML/CSS</li>
               <li>JavaScript</li>
+              <li>Leaflet.js</li>
+              <li>Git / GitHub</li>
             </ul>
             <div class="skill-logos">
               <img src="icons/streamlit.svg" alt="Streamlit" />
@@ -500,62 +892,61 @@
       <section id="experience">
         <h2>Experience</h2>
         <div class="exp-entry">
-          <h3>Data Science Researcher - SDSU DiMoLab (Internship)</h3>
+          <h3>Data Science Researcher - SDSU DiMoLab</h3>
           <p><strong>Sep 2025 - Present | San Diego, CA</strong></p>
           <ul>
             <li>
-              Developed and evaluated
-              <strong>time-series forecasting models</strong> to predict dengue
-              case dynamics using multi-year epidemiological, climate, and
-              mosquito surveillance datasets.
+              Developed time-series forecasting models in Python to predict
+              disease outbreaks, enabling early-risk detection and supporting
+              proactive public health decision-making
             </li>
+
             <li>
-              Performed
-              <strong>risk modeling and feature engineering</strong> to identify
-              key outbreak drivers including temperature, rainfall, humidity,
-              and lagged case patterns.
+              Performed data cleaning, feature engineering, and risk modeling on
+              epidemiological and climate datasets to enhance predictive
+              performance
             </li>
+
             <li>
-              Applied
-              <strong>machine learning forecasting methods</strong> - trend
-              analysis, lag-based modeling, error diagnostics, and validation -
-              support public health decision-making.
+              Contributed to the development of an AI-based early warning system
+              for disease surveillance
             </li>
+
             <li>
-              Contributed to an
-              <strong>AI-driven early-warning framework</strong> for dengue
-              surveillance and resource planning in Southern Taiwan.
+              Co-authoring a research manuscript on disease outbreak forecasting
+              for submission to a peer-reviewed journal
             </li>
           </ul>
         </div>
         <div class="exp-entry">
-          <h3>AI Researcher - Metabolism of Cities Living Lab (Internship)</h3>
-          <p><strong>Feb 2025 - Present | San Diego, CA</strong></p>
+          <h3>AI Researcher - Metabolism of Cities Living Lab</h3>
+          <p><strong>Feb 2025 - Dec 2025 | San Diego, CA</strong></p>
           <ul>
             <li>
-              Developed an AI-powered agricultural support system using
-              <strong>YOLO-based plant disease detection</strong> and
-              <strong>LLM-generated treatment recommendations</strong> to assist
-              indigenous farming communities in Central Africa.
+              Designed an AI-powered plant disease detection and advisory system
+              integrating YOLOv8 and LLM-based retrieval (RAG)
             </li>
+
             <li>
-              Designed and implemented machine learning pipelines to identify
-              crop risks and provide
-              <strong>actionable, culturally informed insights</strong> that
-              support sustainable farming practices.
+              Trained computer vision models on 13,500+ images across 20 disease
+              classes, achieving strong performance (mAP@50: 0.894)
             </li>
+
             <li>
-              Integrated
-              <strong>traditional ecological knowledge (TEK)</strong> with AI
-              models to improve transparency, trust, and real-world
-              applicability.
+              Developed a knowledge-driven recommendation pipeline using
+              LangChain to transform agricultural research into actionable,
+              real-time insights
             </li>
+
             <li>
-              Contributed research accepted as a
-              <strong
-                >poster presentation at the 4th International One Health
-                Conference (Rome, 2025)</strong
-              >.
+              Deployed a real-time web application using Streamlit and Hugging
+              Face Spaces, enabling accessible AI-powered decision support for
+              smallholder farmers
+            </li>
+
+            <li>
+              Co-authored research accepted at the 4th International One Health
+              Conference (Rome, 2025)
             </li>
           </ul>
         </div>
